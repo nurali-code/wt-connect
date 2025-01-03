@@ -1,0 +1,48 @@
+@import 'normolize'
+@import 'fonts'
+@import 'elements'
+@import 'footer'
+
+.header
+	display: flex
+	border-bottom: $bw solid $black
+	align-items: center
+	padding: 5px 10px
+
+	.btns
+		display: flex
+		margin-left: auto
+		gap: 5px
+		.btn
+			box-shadow: none
+			width: 25px
+			min-width: unset
+			height: 25px
+			padding: 0
+			line-height: 25px
+
+.nav
+	width: fit-content
+	margin: 5px
+	padding: 0 5px
+	border: $bw solid $black
+	display: flex
+	&__link
+		padding: 8px 
+		display: block
+
+.section
+	max-width: 500px
+	margin: auto
+	border: $bw solid $black
+
+	.form
+		display: flex
+		gap: 10px
+		max-width: 95%
+		margin: auto 
+
+.bottom
+	display: flex
+	align-items: center
+	justify-content: space-between
