@@ -1,5 +1,5 @@
 @import 'normolize'
-@import 'fonts'
+// @import 'fonts'
 @import 'elements'
 @import 'footer'
 
@@ -7,7 +7,7 @@
 	display: flex
 	border-bottom: $bw solid $black
 	align-items: center
-	padding: 5px 10px
+	padding: 4.5px 4px
 
 	.btns
 		display: flex
@@ -15,32 +15,38 @@
 		gap: 5px
 		.btn
 			box-shadow: none
-			width: 25px
+			width: 14px
+			height: 14px
 			min-width: unset
-			height: 25px
 			padding: 0
-			line-height: 25px
+			border-width: 2px
+			border-radius: 2px
 
 .nav
 	width: fit-content
-	margin: 5px
-	padding: 0 5px
+	margin: 1px 0 0 1px
+	padding: 0 6px
+	gap: 2px
 	border: $bw solid $black
+	border-radius: 3px
 	display: flex
 	&__link
-		padding: 8px 
+		padding: 6px 9px
 		display: block
 
 .section
-	max-width: 500px
+	max-width: 364px
 	margin: auto
 	border: $bw solid $black
+	border-radius: 3px
 
 	.form
 		display: flex
-		gap: 10px
-		max-width: 95%
+		gap: 11px
+		max-width: calc( 100% - 12px )
 		margin: auto 
+		img 
+			width: 14px
 
 .bottom
 	display: flex

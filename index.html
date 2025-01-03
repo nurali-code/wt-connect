@@ -14,8 +14,8 @@
 			<p>WP-connect</p>
 
 			<div class="btns">
-				<button class="btn">-</button>
-				<button class="btn">&times;</button>
+				<button class="btn" title="Hide">−</button>
+				<button class="btn" title="Close">&times;</button>
 			</div>
 		</header>
 
@@ -29,46 +29,50 @@
 			<form class="form">
 				<input type="text" required>
 				<input type="password" required>
-				<button type="submit" class="btn" title="submit">></button>
+				<button type="submit" class="btn" title="Submit"><img src="img/go.svg" alt="i"></button>
 			</form>
 
 			<table>
 				<thead>
 					<tr>
 						<th>#</th>
-						<th>Server</th>
-						<th>Players</th>
+						<th>Server
+							<div class="ars">
+								<button><img src="img" alt=""></button>
+							</div>
+						</th>
+						<th>Players
+							<div class="ars">
+								<button><img src="img/arr_up.svg" alt="i"></button>
+								<button><img src="img/arr_down.svg" alt="i"></button>
+							</div>
+						</th>
 						<th>Map</th>
-						<th>Status</th>
+						<th>Status
+							<div class="ars">
+								<button><img src="img/arr_down.svg" alt="i"></button>
+							</div>
+						</th>
 					</tr>
 				</thead>
 
 				<tbody>
 					<tr>
-						<td>
-							<input type="radio" name="rad">
-							<label for=""></label>
-						</td>
+						<td><input type="radio" name="rad"></td>
 						<td>Duel</td>
 						<td>4/32</td>
 						<td>kursk</td>
 						<td>ok</td>
 					</tr>
 					<tr>
-						<td>
-							<input type="radio" name="rad">
-							<label for=""></label>
-						</td>
+						<td><input type="radio" name="rad"></td>
 						<td>Dogfight</td>
 						<td>88/128</td>
 						<td>novoros</td>
 						<td>ok</td>
 					</tr>
 					<tr>
-						<td>
-							<input type="radio" name="rad">
-							<label for=""></label>
-						</td>
+						<td><input type="radio" name="rad"></td>
 						<td>War for Fields</td>
 						<td>error</td>
 						<td>error</td>
@@ -77,63 +81,68 @@
 				</tbody>
 			</table>
 
-			<div class="scroll">
-				<table class="second">
-					<thead>
-						<tr>
-							<th>Server</th>
-							<th>Players</th>
-							<th>Map</th>
-							<th>Status</th>
-						</tr>
-					</thead>
-	
-					<tbody>
-						<tr>
-							<td>Duel</td>
-							<td>4/32</td>
-							<td>kursk</td>
-							<td>ok</td>
-						</tr>
-						<tr>
-							<td>Dogfight</td>
-							<td>88/128</td>
-							<td>novoros</td>
-							<td>ok</td>
-						</tr>
-						<tr>
-							<td>War for Fields</td>
-							<td>error</td>
-							<td>error</td>
-							<td>error</td>
-						</tr>
-						<tr>
-							<td>Duel</td>
-							<td>4/32</td>
-							<td>kursk</td>
-							<td>ok</td>
-						</tr>
-						<tr>
-							<td>Dogfight</td>
-							<td>88/128</td>
-							<td>novoros</td>
-							<td>ok</td>
-						</tr>
-						<tr>
-							<td>War for Fields</td>
-							<td>error</td>
-							<td>error</td>
-							<td>error</td>
-						</tr>
-						<tr>
-							<td>Duel</td>
-							<td>4/32</td>
-							<td>kursk</td>
-							<td>ok</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
+			<table class="second">
+				<thead>
+					<tr>
+						<th>Server
+							<div class="ars">
+								<button><img src="img/arr_up.svg" alt="i"></button>
+							</div>
+						</th>
+						<th>Players
+							<div class="ars">
+								<button><img src="img/arr_up.svg" alt="i"></button>
+								<button><img src="img/arr_down.svg" alt="i"></button>
+							</div>
+						</th>
+						<th>Map</th>
+						<th>Status
+							<div class="ars">
+								<button><img src="img/arr_down.svg" alt="i"></button>
+							</div>
+						</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>Duel</td>
+						<td>4/32</td>
+						<td>kursk</td>
+						<td>ok</td>
+					</tr>
+					<tr>
+						<td>Dogfight</td>
+						<td>88/128</td>
+						<td>novoros</td>
+						<td>ok</td>
+					</tr>
+					<tr>
+						<td>War for Fields</td>
+						<td>error</td>
+						<td>error</td>
+						<td>error</td>
+					</tr>
+					<tr>
+						<td>Duel</td>
+						<td>4/32</td>
+						<td>kursk</td>
+						<td>ok</td>
+					</tr>
+					<tr>
+						<td>Dogfight</td>
+						<td>88/128</td>
+						<td>novoros</td>
+						<td>ok</td>
+					</tr>
+					<tr>
+						<td>War for Fields</td>
+						<td>error</td>
+						<td>error</td>
+						<td>error</td>
+					</tr>
+				</tbody>
+			</table>
 
 			<div class="bottom">
 				<div class="text">
@@ -141,7 +150,7 @@
 					<p>Axis: 35</p>
 				</div>
 
-				<button type="reset" class="btn">REFRESH</button>
+				<button type="reset" class="btn"><img src="img/refresh.svg" alt="i">REFRESH</button>
 			</div>
 		</div>
 
@@ -151,6 +160,17 @@
 		</footer>
 
 	</div>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", () => {
+			document.querySelectorAll("input[type='radio'][name='rad']").forEach(radio => {
+				radio.addEventListener("click", () => {
+					document.querySelector("tr.checked")?.classList.remove("checked");
+					radio.closest("tr")?.classList.add("checked");
+				});
+			});
+		});
+	</script>
 
 </body>
 
